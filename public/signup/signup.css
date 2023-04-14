@@ -72,6 +72,15 @@ body {
     border-color: rgb(218, 218, 230);
 
 }
+#singupusername{
+    margin-bottom: 10px;
+    height: 37px;
+	width: 290px;
+    border: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: rgb(218, 218, 230);
+}
 
 #singuppassword{
     margin-bottom: 10px;
