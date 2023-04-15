@@ -107,14 +107,18 @@ body{
     padding-left: 5px;
 }
 
+/* __________________________________________________ */
 
 .homepage{
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
 }
 .following{
-    width: 20px;
+    width: 5%;
 }
-/* __________________________________________________ */
+
 .followeduser{
     display: flex;
     flex-direction: row;
@@ -137,4 +141,33 @@ body{
 }
 #followedusername{
     padding-left: 5px;
+}
+.posts{
+    width: 40%;
+}
+#sidefooter{
+    width: 30%;
+}
+
+#sidefooter{
+    display: flex;
+    flex-direction: column;
+}
+.side{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+}
+
+.elementcontent{
+    font-size: small;
+    color: #707070;
 }
